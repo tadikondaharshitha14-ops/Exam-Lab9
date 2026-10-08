@@ -85,3 +85,36 @@ Queue:
 * Stack = O(n)
 * Queue = O(n)
 * Overall = O(n)
+  
+**VIVA QUESTIONS**
+
+1. What is a Stack? Explain pop() and peek() do ?
+   
+A Stack is a data structure that follows LIFO (Last In, First Out).
+
+pop() : It removes and returns the top item from the Stack.
+
+peek() : It shows the top item of the Stack without removing it.
+
+2. What is a Queue? explain dequeue() and front() do ?
+   
+A Queue is a data structure that follows FIFO (First In, First Out).
+
+dequeue() : It removes and returns the first item from the Queue.
+
+front() : It shows the first item of the Queue without removing it.
+
+3. Why is @dataclass used?
+   
+It is used to easily store customer request details like ID and name.
+
+4. What is Generic[T] used for? Why are type hints used in this program?
+   
+Generic[T]: It makes Stack and Queue reusable for different data types.
+
+Type hints tell us what type of data the functions and classes are expected to use.
+
+5. What is the difference between push() and enqueue()?
+   
+push() adds an item to a Stack, where as enqueue() adds an item to a Queue.
+
